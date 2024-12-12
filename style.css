@@ -1,0 +1,65 @@
+.div{
+  position: relative;
+ 
+}
+.picture1{
+  position:absolute;
+  right:auto;
+  left:0px;
+}
+.picture2{
+  position:absolute;
+  left:auto;
+  right:0px;
+}
+.picture3{
+  position:absolute;
+  top:auto;
+   bottom:0px;
+}
+.picture4{
+  position:absolute;
+left:auto;
+  right:0px;
+  bottom:0px;
+}
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.text{
+  
+  position:absolute;
+  
+  color: #FDE992;
+ left: 1%;
+  animation: fadeIn 6s
+    ease-in-out;
+ text-shadow: -1px -1px 0 white,
+   1px -1px 0 white,
+   -1px 1px 0 white,
+   1px 1px 0 white
+   
+   
+}
+
+.box {
+  background: #fb6080;
+  widht: 400px;
+  height: 400px;
+  position:absolute;
+   left: 10%;
+  right:10%;
+  top:40;
+  bottom:30%;
+border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  animation: fadeIn 4s
+    ease-in-out;
+}
